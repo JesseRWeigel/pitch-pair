@@ -9,6 +9,8 @@ rather than whether you have memorised some words.
 
 Catalog task: `EDU-013`. Part of [thousand](../../README.md).
 
+**[Try the drill](https://jesserweigel.github.io/pitch-pair/)**
+
 ## The audio half is BLOCKED, and here is the measurement
 
 The task asked for a drill that plays the minimal pair. It does not play anything. Before
