@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "dialect": "Tokyo standard (東京式)",
+    "notation": "accent = downstep position. 0 means no downstep (heiban). n>0 means pitch falls immediately after mora n.",
+    "provenance": "Hand-curated, then checked entry by entry against English Wiktionary's Japanese pronunciation data. 37 of 37 remaining entries agree with Wiktionary. Two changes came out of that check: 居間 was corrected from heiban [0] to odaka [2], and the 二本/日本 pair was removed because 二本 has no Japanese section on Wiktionary and the kana page is a soft-redirect, so its accent could not be sourced from the reference this file cites. Several entries encode the accent as a letter (acc=h for heiban, acc=o for odaka) rather than a digit; those were resolved against the rendered page, since a digit search silently misses them. This is a small teaching set, not a dictionary.",
+    "verifyAt": "https://www.gavo.t.u-tokyo.ac.jp/ojad/ (OJAD, search a reading to confirm its accent)",
+    "license": "The accent facts themselves are not copyrightable. This file is released with the repo under MIT.",
+    "multiAccentNote": "心 (こころ) is listed here at [2], which Wiktionary attests with DJR and NHK references, but Wiktionary leads with [3]. 卵, 自転車, 頭, 花, 切る and 着る also have more than one attested accent. Where a word has several, this file carries one and does not claim it is the only correct answer."
+  },
+  "pairs": [
+    {
+      "id": "hashi",
+      "reading": "はし",
+      "note": "The canonical three-way contrast. 端 and 橋 sound identical in isolation and separate only on the particle.",
+      "members": [
+        {
+          "word": "箸",
+          "gloss": "chopsticks",
+          "accent": 1
+        },
+        {
+          "word": "橋",
+          "gloss": "bridge",
+          "accent": 2
+        },
+        {
+          "word": "端",
+          "gloss": "edge",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ame",
+      "reading": "あめ",
+      "members": [
+        {
+          "word": "雨",
+          "gloss": "rain",
+          "accent": 1
+        },
+        {
+          "word": "飴",
+          "gloss": "candy",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kaki",
+      "reading": "かき",
+      "members": [
+        {
+          "word": "牡蠣",
+          "gloss": "oyster",
+          "accent": 1
+        },
+        {
+          "word": "柿",
+          "gloss": "persimmon",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "sake",
+      "reading": "さけ",
+      "members": [
+        {
+          "word": "鮭",
+          "gloss": "salmon",
+          "accent": 1
+        },
+        {
+          "word": "酒",
+          "gloss": "alcohol",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "ima",
+      "reading": "いま",
+      "members": [
+        {
+          "word": "今",
+          "gloss": "now",
+          "accent": 1
+        },
+        {
+          "word": "居間",
+          "gloss": "living room",
+          "accent": 2,
+          "note": "Odaka [2] per English Wiktionary. An earlier revision of this file said heiban [0], which was wrong."
+        }
+      ]
+    },
+    {
+      "id": "shiro",
+      "reading": "しろ",
+      "members": [
+        {
+          "word": "白",
+          "gloss": "white",
+          "accent": 1
+        },
+        {
+          "word": "城",
+          "gloss": "castle",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kiru",
+      "reading": "きる",
+      "members": [
+        {
+          "word": "切る",
+          "gloss": "to cut",
+          "accent": 1
+        },
+        {
+          "word": "着る",
+          "gloss": "to wear",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kau",
+      "reading": "かう",
+      "members": [
+        {
+          "word": "飼う",
+          "gloss": "to keep (an animal)",
+          "accent": 1
+        },
+        {
+          "word": "買う",
+          "gloss": "to buy",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kaeru",
+      "reading": "かえる",
+      "members": [
+        {
+          "word": "帰る",
+          "gloss": "to go home",
+          "accent": 1
+        },
+        {
+          "word": "蛙",
+          "gloss": "frog",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "haru",
+      "reading": "はる",
+      "members": [
+        {
+          "word": "春",
+          "gloss": "spring",
+          "accent": 1
+        },
+        {
+          "word": "貼る",
+          "gloss": "to stick on",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "youji",
+      "reading": "ようじ",
+      "members": [
+        {
+          "word": "幼児",
+          "gloss": "infant",
+          "accent": 1
+        },
+        {
+          "word": "用事",
+          "gloss": "an errand",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "shimai",
+      "reading": "しまい",
+      "members": [
+        {
+          "word": "姉妹",
+          "gloss": "sisters",
+          "accent": 1
+        },
+        {
+          "word": "仕舞い",
+          "gloss": "the end",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kami",
+      "reading": "かみ",
+      "members": [
+        {
+          "word": "神",
+          "gloss": "god",
+          "accent": 1
+        },
+        {
+          "word": "紙",
+          "gloss": "paper",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "seki",
+      "reading": "せき",
+      "members": [
+        {
+          "word": "席",
+          "gloss": "seat",
+          "accent": 1
+        },
+        {
+          "word": "咳",
+          "gloss": "cough",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "kata",
+      "reading": "かた",
+      "members": [
+        {
+          "word": "肩",
+          "gloss": "shoulder",
+          "accent": 1
+        },
+        {
+          "word": "型",
+          "gloss": "mould, model",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "ichi",
+      "reading": "いち",
+      "members": [
+        {
+          "word": "位置",
+          "gloss": "position",
+          "accent": 1
+        },
+        {
+          "word": "一",
+          "gloss": "one",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "toshi",
+      "reading": "とし",
+      "members": [
+        {
+          "word": "都市",
+          "gloss": "city",
+          "accent": 1
+        },
+        {
+          "word": "年",
+          "gloss": "year, age",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "asa",
+      "reading": "あさ",
+      "members": [
+        {
+          "word": "朝",
+          "gloss": "morning",
+          "accent": 1
+        },
+        {
+          "word": "麻",
+          "gloss": "hemp",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "hana",
+      "reading": "はな",
+      "note": "Both are flat across the word. Only the particle tells them apart.",
+      "members": [
+        {
+          "word": "鼻",
+          "gloss": "nose",
+          "accent": 0
+        },
+        {
+          "word": "花",
+          "gloss": "flower",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "yuki",
+      "reading": "ゆき",
+      "members": [
+        {
+          "word": "行き",
+          "gloss": "bound for",
+          "accent": 0
+        },
+        {
+          "word": "雪",
+          "gloss": "snow",
+          "accent": 2
+        }
+      ]
+    },
+    {
+      "id": "atsui",
+      "reading": "あつい",
+      "members": [
+        {
+          "word": "熱い",
+          "gloss": "hot (to the touch)",
+          "accent": 2
+        },
+        {
+          "word": "厚い",
+          "gloss": "thick",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "omoi",
+      "reading": "おもい",
+      "members": [
+        {
+          "word": "思い",
+          "gloss": "a thought, feeling",
+          "accent": 2
+        },
+        {
+          "word": "重い",
+          "gloss": "heavy",
+          "accent": 0
+        }
+      ]
+    },
+    {
+      "id": "kakeru",
+      "reading": "かける",
+      "members": [
+        {
+          "word": "掛ける",
+          "gloss": "to hang, to spend",
+          "accent": 2
+        },
+        {
+          "word": "欠ける",
+          "gloss": "to be chipped, lacking",
+          "accent": 0
+        }
+      ]
+    }
+  ],
+  "exemplars": [
+    {
+      "note": "Not minimal pairs. Nakadaka and odaka minimal pairs are genuinely scarce, so these single words are included so those two patterns get enough drill items to report a meaningful accuracy. The session builder marks them exemplar: true and --pairs-only excludes them.",
+      "words": [
+        {
+          "word": "心",
+          "reading": "こころ",
+          "gloss": "heart, mind",
+          "accent": 2
+        },
+        {
+          "word": "卵",
+          "reading": "たまご",
+          "gloss": "egg",
+          "accent": 2
+        },
+        {
+          "word": "お菓子",
+          "reading": "おかし",
+          "gloss": "sweets",
+          "accent": 2
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "gloss": "bicycle",
+          "accent": 2
+        },
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "gloss": "tall, expensive",
+          "accent": 2
+        },
+        {
+          "word": "走る",
+          "reading": "はしる",
+          "gloss": "to run",
+          "accent": 2
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "gloss": "teacher",
+          "accent": 3
+        },
+        {
+          "word": "新幹線",
+          "reading": "しんかんせん",
+          "gloss": "bullet train",
+          "accent": 3
+        },
+        {
+          "word": "男",
+          "reading": "おとこ",
+          "gloss": "man",
+          "accent": 3
+        },
+        {
+          "word": "頭",
+          "reading": "あたま",
+          "gloss": "head",
+          "accent": 3
+        },
+        {
+          "word": "光",
+          "reading": "ひかり",
+          "gloss": "light",
+          "accent": 3
+        },
+        {
+          "word": "妹",
+          "reading": "いもうと",
+          "gloss": "younger sister",
+          "accent": 4
+        }
+      ]
+    }
+  ]
+}

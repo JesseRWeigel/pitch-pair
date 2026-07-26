@@ -1,0 +1,151 @@
+<title>pitch-pair</title>
+<style>
+:root{color-scheme:light;--bg:#FAF9FC;--bg2:#F2F0F7;--ink:#1B1826;--ink2:#4A4459;
+--ink3:#6C6580;--rule:#DDD8E8;--accent:#4A3AA7;--code:#F2F0F7;
+--mono:ui-monospace,"SF Mono","Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+--sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media(prefers-color-scheme:dark){:root:where(:not([data-theme=light])){color-scheme:dark;
+--bg:#17151C;--bg2:#1F1C27;--ink:#EDE9F5;--ink2:#B9B2C9;--ink3:#948CA6;--rule:#322D3E;
+--accent:#9085E9;--code:#1F1C27}}
+:root[data-theme=dark]{color-scheme:dark;--bg:#17151C;--bg2:#1F1C27;--ink:#EDE9F5;
+--ink2:#B9B2C9;--ink3:#948CA6;--rule:#322D3E;--accent:#9085E9;--code:#1F1C27}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px 90px}
+header{padding:64px 0 28px;border-bottom:2px solid var(--ink)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+color:var(--ink3);margin:0 0 14px}
+h1{font-family:var(--mono);font-weight:600;font-size:clamp(30px,5.5vw,50px);line-height:1.05;
+letter-spacing:-.03em;margin:0 0 14px;text-wrap:balance}
+.tag{font-size:19px;color:var(--ink2);margin:0;max-width:58ch}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{font-family:var(--mono);font-size:13px;text-decoration:none;padding:9px 16px;
+border:1px solid var(--rule);border-radius:3px;color:var(--ink);background:var(--bg2)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary:hover{color:var(--bg);opacity:.9}
+h2{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--ink3);font-weight:600;margin:44px 0 14px;padding-bottom:8px;
+border-bottom:1px solid var(--rule)}
+h3{font-size:17px;margin:26px 0 8px}
+p,li{color:var(--ink2)}p{max-width:66ch}
+strong{color:var(--ink)}
+a{color:var(--accent)}
+pre{background:var(--code);border:1px solid var(--rule);border-radius:4px;padding:14px 16px;
+overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.55;color:var(--ink)}
+code{font-family:var(--mono);font-size:.9em;background:var(--code);padding:1px 5px;
+border-radius:3px}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;font-size:14.5px;margin:14px 0;display:block;
+overflow-x:auto}
+th,td{text-align:left;padding:8px 14px 8px 0;border-bottom:1px solid var(--rule);
+vertical-align:top}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+color:var(--ink3);font-weight:600;white-space:nowrap}
+blockquote{margin:18px 0;padding:12px 18px;border-left:3px solid var(--accent);
+background:var(--bg2);border-radius:0 4px 4px 0}
+blockquote p{margin:0}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);
+font-size:14px;color:var(--ink3)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<header>
+  <p class="eyebrow">JesseRWeigel &middot; open source</p>
+  <h1>pitch-pair</h1>
+  <p class="tag"></p>
+  <div class="cta">
+    
+    <a class="btn primary" href="./demo/">Try the drill</a>
+    <a class="btn" href="https://github.com/JesseRWeigel/pitch-pair">Source on GitHub</a>
+  </div>
+</header>
+<p>A drill for Japanese pitch accent built around minimal pairs. You are shown a word such as 箸 (chopsticks) followed by the particle が, and you pick which of the four Tokyo-standard accent patterns it takes. Answers you get wrong are rescheduled by FSRS-6 and come back. A session is 50 items and ends with an accuracy figure for each of the four patterns separately, because the thing worth measuring is whether you have learned the patterns rather than whether you have memorised some words.</p>
+<p>Catalog task: <code>EDU-013</code>. Part of <a href="https://github.com/JesseRWeigel/722-things-to-build">thousand</a>.</p>
+<p><strong><a href="https://jesserweigel.github.io/pitch-pair/">Try the drill</a></strong></p>
+<h2>The audio half is BLOCKED, and here is the measurement</h2>
+<p>The task asked for a drill that plays the minimal pair. It does not play anything. Before building the drill I generated pitch-accent minimal pairs with the Gemini TTS voice and measured the pitch contour of each clip. The synthesiser does not render Japanese pitch accent reliably, and shipping the audio would have taught people the wrong pitch.</p>
+<p>Method: for each word, generate N takes of <code>&lt;word&gt;です。</code> at 24 kHz, track F0 with autocorrelation and octave correction, then take the ratio of median F0 in the first third of the voiced span to the second third. A ratio above 1.0 means the pitch falls across the word, which is what atamadaka should do. A ratio below 1.0 means it rises, which is what heiban and odaka should do. The whole probe is in <code>tools/tts-probe/</code> and the WAV files are committed so the numbers can be checked without an API key.</p>
+<table><thead><tr><th>word</th><th>accent</th><th>contour should</th><th>measured F0 ratio per take</th><th>mean</th><th>takes correct</th></tr></thead><tbody><tr><td>箸 chopsticks</td><td>atamadaka [1]</td><td>fall</td><td>1.30 1.36 1.22 0.92 1.44</td><td>1.25</td><td>4/5</td></tr><tr><td>橋 bridge</td><td>odaka [2]</td><td>rise</td><td>0.69 0.88 1.02 1.12 0.85</td><td>0.91</td><td>3/5</td></tr><tr><td>雨 rain</td><td>atamadaka [1]</td><td>fall</td><td>1.08 1.41 0.75 0.90</td><td>1.04</td><td>2/4</td></tr><tr><td>飴 candy</td><td>heiban [0]</td><td>rise</td><td>1.37 1.38 0.86 1.34 0.73</td><td>1.14</td><td>2/5</td></tr><tr><td>牡蠣 oyster</td><td>atamadaka [1]</td><td>fall</td><td>1.18 0.92 0.85 1.04 1.02</td><td>1.00</td><td>3/5</td></tr><tr><td>柿 persimmon</td><td>heiban [0]</td><td>rise</td><td>0.73 0.86 0.97 0.60</td><td>0.79</td><td>4/4</td></tr><tr><td>鮭 salmon</td><td>atamadaka [1]</td><td>fall</td><td>1.13 1.31</td><td>1.22</td><td>2/2</td></tr><tr><td>酒 alcohol</td><td>heiban [0]</td><td>rise</td><td>0.68 0.80</td><td>0.74</td><td>2/2</td></tr><tr><td>雨 rain (accent named in the prompt)</td><td>atamadaka [1]</td><td>fall</td><td>1.03</td><td>1.03</td><td>1/1</td></tr><tr><td>飴 candy (accent named in the prompt)</td><td>heiban [0]</td><td>rise</td><td>1.23</td><td>1.23</td><td>0/1</td></tr></tbody></table>
+<table><thead><tr><th>minimal pair</th><th>ratio range A</th><th>ratio range B</th><th>separated?</th></tr></thead><tbody><tr><td>箸 chopsticks vs 橋 bridge</td><td>0.92 to 1.44</td><td>0.69 to 1.12</td><td><strong>no, ranges overlap</strong></td></tr><tr><td>雨 rain vs 飴 candy</td><td>0.75 to 1.41</td><td>0.73 to 1.38</td><td><strong>no, ranges overlap</strong></td></tr><tr><td>牡蠣 oyster vs 柿 persimmon</td><td>0.85 to 1.18</td><td>0.60 to 0.97</td><td><strong>no, ranges overlap</strong></td></tr><tr><td>鮭 salmon vs 酒 alcohol</td><td>1.13 to 1.31</td><td>0.68 to 0.80</td><td>yes</td></tr><tr><td>雨 rain (accent named in the prompt) vs 飴 candy (accent named in the prompt)</td><td>1.03 to 1.03</td><td>1.23 to 1.23</td><td>yes</td></tr></tbody></table>
+<p>Three of the five minimal pairs have F0 ratio ranges that <strong>overlap</strong>, which means the synthesiser&#x27;s rendering of one word cannot be told from the other by the very measurement that is supposed to distinguish them. 飴 got 2 of 5 takes right, worse than a coin flip on a binary rise-or-fall question.</p>
+<p>The last row is the one that settles it. Naming the accent explicitly in the prompt made 飴 *worse*, not better: a single take at ratio 1.23, falling, when heiban must rise. There is no prompt-engineering fix available here.</p>
+<p>The damaging case is 飴. It is heiban and should rise, and the synthesiser gave it a falling contour on most takes, which is the accent of 雨. A learner drilling against that audio would be trained to hear candy as rain.</p>
+<p>So the audio is not shipped. What is shipped is the visual pattern drill, which teaches the same four patterns from the pitch diagram and the minimal pair contrast. That is still a real exercise, and it is the part of the task that can be done honestly right now.</p>
+<p>What would unblock it: recordings by a speaker of standard Tokyo Japanese, or a corpus of openly licensed recordings with verified accent labels. An automated F0 gate that only kept takes matching the expected contour is tempting, but the gate would be trusting the same crude pitch tracker used above to decide what learners hear, and a take can measure right while still sounding wrong. That is not a safe basis for teaching pronunciation.</p>
+<h2>What the drill teaches</h2>
+<p>Tokyo accent is described by one number, the position of the downstep. From that number and the mora count, all four patterns follow:</p>
+<table><thead><tr><th>pattern</th><th>Japanese</th><th>downstep</th><th>shape</th></tr></thead><tbody><tr><td>heiban</td><td>平板</td><td>[0]</td><td>low, then high, and the particle stays high</td></tr><tr><td>atamadaka</td><td>頭高</td><td>[1]</td><td>high on mora 1, then low</td></tr><tr><td>nakadaka</td><td>中高</td><td>[2..n-1]</td><td>low, high, then drops inside the word</td></tr><tr><td>odaka</td><td>尾高</td><td>[n]</td><td>low, then high, and the particle drops</td></tr></tbody></table>
+<p>Heiban and odaka look identical across the word itself and separate only on the particle, which is why every prompt shows the particle. 鼻が (heiban, stays high) against 花が (odaka, drops on が) is the clearest case of this.</p>
+<h2>Running it</h2>
+<p>The drill is a static page with no build step and no dependencies. ES modules need to be served over HTTP rather than opened from the filesystem.</p>
+<pre><code>cd projects/pitch-pair
+python3 -m http.server 8000
+# then open http://localhost:8000/</code></pre>
+<p>Keyboard: <code>1</code>-<code>4</code> pick a pattern, space moves to the next item. Progress is kept in <code>localStorage</code> so the scheduler state survives a reload.</p>
+<p>Command line, no browser:</p>
+<pre><code>node bin/simulate.js --length 50 --accuracy 0.7   # simulated learner, prints the report
+node bin/simulate.js --weak nakadaka              # a learner who fails one pattern
+node bin/simulate.js --perfect --pairs-only       # minimal pairs only, no exemplars
+npm test                                          # the test suite</code></pre>
+<h2>The scheduler is FSRS-6, and that claim is tested</h2>
+<p><code>src/fsrs.js</code> is a port of FSRS-6, not SM-2 and not FSRS-4.5. It follows the reference implementation <a href="https://github.com/open-spaced-repetition/py-fsrs">py-fsrs</a> 6.3.1 (MIT): the 21 default parameters, the power forgetting curve with decay from <code>w[20]</code>, the short-term stability path for same-day reviews, linear damping and mean reversion in the difficulty update, and the Learning / Review / Relearning state machine with its steps.</p>
+<p>Rather than assert this in prose, <code>test/fsrs_vectors.json</code> holds output captured from py-fsrs 6.3.1 itself, and the suite checks the port reproduces it:</p>
+<ul><li>91 rating sequences, checking stability, difficulty, state, step and due time at every</li></ul>
+<p>  step, to within 1e-9. 34 of those steps are reviews made from the Relearning state,   which is the path most easily got wrong and which the first draft of the vectors missed</p>
+<ul><li>36 <code>_next_interval</code> values across four desired-retention settings and nine stabilities</li><li>21 retrievability values across a stability and elapsed-day sweep</li></ul>
+<p>The vectors are regenerated with <code>pip install fsrs==6.3.1 &amp;&amp; python3 test/gen_vectors.py &gt; test/fsrs_vectors.json</code>, so the comparison can be redone against a future py-fsrs.</p>
+<p>Interval fuzzing is the one deliberate difference. py-fsrs enables it by default and it draws on a random number generator, so this port behaves as py-fsrs does with <code>enable_fuzzing=False</code>. <code>bankersRound</code> exists because Python&#x27;s <code>round()</code> is half-to-even and JavaScript&#x27;s <code>Math.round</code> is not, and the difference shows up in interval lengths.</p>
+<p>Grading maps a correct answer to <code>Good</code> and a miss to <code>Again</code>. A missed new item lands on the one-minute learning step, so it comes back within the same session, which is what &quot;FSRS schedules the misses&quot; means in practice.</p>
+<h2>Where the accent data comes from</h2>
+<p>Hand-curated, then checked entry by entry against English Wiktionary&#x27;s Japanese pronunciation data by a reviewer that did not build the dataset. 37 of 37 remaining entries agree.</p>
+<p>Two corrections came out of that check, and both are in the shipped data:</p>
+<ul><li><strong>居間 (いま) &quot;living room&quot; was wrong.</strong> It was listed as heiban [0]; Wiktionary gives odaka</li></ul>
+<p>  [2]. The 今/居間 contrast survives, as atamadaka against odaka rather than atamadaka against   heiban. Shipping the original would have taught the wrong accent, which is the one failure a   pronunciation trainer must not have.</p>
+<ul><li><strong>The 二本/日本 pair was removed.</strong> 二本 has no Japanese section on Wiktionary and the kana</li></ul>
+<p>  page にほん is a bare soft-redirect, so its accent cannot be sourced from the reference this   file cites. An unsourced accent in a drill is worse than one fewer pair.</p>
+<p>A method note worth carrying forward: several Wiktionary entries encode the accent as a letter rather than a digit, <code>acc=h</code> for heiban and <code>acc=o</code> for odaka. A digit search silently misses those. Every letter-coded entry was resolved against the rendered page.</p>
+<p>Where a word has more than one attested accent, this file carries one and does not claim it is the only correct answer. 心 is listed at [2], which Wiktionary attests with DJR and NHK references, though it leads with [3]. 卵, 自転車, 頭, 花, 切る and 着る are similar.</p>
+<p>Confirm any entry yourself at <a href="https://www.gavo.t.u-tokyo.ac.jp/ojad/">OJAD</a>, which renders the pitch curve for a reading.</p>
+<h2>Layout</h2>
+<pre><code>index.html              the drill page
+src/fsrs.js             FSRS-6, checked against py-fsrs 6.3.1
+src/accent.js           morae, pattern classification, pitch contours
+src/deck.js             pairs.json -&gt; drill items
+src/session.js          selection, grading, the per-pattern report
+src/app.js              browser front end
+src/data/pairs.json     the dataset
+bin/simulate.js         run a session without a browser
+test/                   the test suite
+tools/tts-probe/        the TTS measurement that blocked the audio, plus its WAV files
+verify.sh               the verify command</code></pre>
+<h2>Verify command</h2>
+<pre><code>./verify.sh</code></pre>
+<p>It runs the test suite, then a real 50-item simulated session, then asserts against the printed report that all four patterns were asked, that each carries a percentage accuracy, that the counts sum to 50 and that misses were rescheduled, then exercises the scheduler&#x27;s interval logic from the command line.</p>
+<h2>Status</h2>
+<p>Verified 2026-07-26.</p>
+<pre><code>$ bash verify.sh
+  ok  interval equals stability at the default 0.9 retention
+  ok  higher retention gives shorter intervals: 464 &gt; 166 &gt; 50 &gt; 20
+  ok  intervals clamped to [1, maximumInterval]
+  ok  S 2.31 -&gt; 25.13 on Good, -&gt; 0.76 on Again
+
+ALL CHECKS PASSED</code></pre>
+<h2>Unfinished</h2>
+<ul><li><strong>Audio is BLOCKED</strong>, for the reason measured above. The drill is visual only.</li><li>The dataset is 59 words across 23 minimal-pair groups plus a few single-word exemplars. It is enough to drill the four patterns and it is not broad</li></ul>
+<p>  coverage of Japanese vocabulary.</p>
+<ul><li>Nakadaka and odaka are carried partly by single-word exemplars rather than by minimal</li></ul>
+<p>  pairs, because minimal pairs for those patterns are scarce.</p>
+<ul><li>Only the が particle is used. Some contrasts behave differently with other particles.</li><li>Devoicing is ignored. In words like 牡蠣 the first vowel is often devoiced in Tokyo</li></ul>
+<p>  speech, which changes where the pitch is actually realised, and the diagram does not   show that.</p>
+<ul><li>The FSRS parameters are the published defaults. They are not optimised against review</li></ul>
+<p>  logs, which is what FSRS parameter training would do with a real review history.</p>
+<ul><li>Progress lives in <code>localStorage</code>, so it is per-browser with no sync and no export.</li></ul>
+<footer>
+  <p>Part of <a href="https://github.com/JesseRWeigel/722-things-to-build">722 things to
+  build</a>, a catalog of scoped projects. Built and verified by an agent fleet; every
+  project ships with a verify command whose real exit code decides whether it counts
+  as done.</p>
+</footer>
+</div>

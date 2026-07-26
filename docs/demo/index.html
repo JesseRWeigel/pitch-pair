@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pitch-pair, Japanese pitch accent drill</title>
+<style>
+  :root {
+    --bg: #14161a;
+    --panel: #1c1f26;
+    --line: #2c313b;
+    --ink: #e6e8ec;
+    --dim: #9aa3b0;
+    --accent: #7bb2f0;
+    --good: #63c187;
+    --bad: #e0736d;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f7f9; --panel: #ffffff; --line: #dfe3e9; --ink: #1a1d22;
+      --dim: #626b78; --accent: #2b6cb0; --good: #2f855a; --bad: #c53030;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink); line-height: 1.5;
+    font-family: ui-sans-serif, system-ui, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    display: flex; justify-content: center; padding: 1.5rem 1rem 4rem;
+  }
+  main { width: 100%; max-width: 44rem; }
+  h1 { font-size: 1.15rem; margin: 0; letter-spacing: .02em; }
+  header { display: flex; justify-content: space-between; align-items: baseline;
+           gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .sub { color: var(--dim); font-size: .82rem; }
+  .panel { background: var(--panel); border: 1px solid var(--line);
+           border-radius: 10px; padding: 1.25rem; }
+  .bar { height: 3px; background: var(--line); border-radius: 2px; margin-bottom: 1rem; }
+  .bar > i { display: block; height: 100%; background: var(--accent);
+             border-radius: 2px; transition: width .2s; }
+  .word { font-size: 3.4rem; line-height: 1.1; text-align: center; margin: .4rem 0 .1rem;
+          font-weight: 500; }
+  .gloss { text-align: center; color: var(--dim); font-size: .95rem; }
+  .reading { text-align: center; color: var(--dim); font-size: .85rem; margin-top: .15rem; }
+  .choices { display: grid; grid-template-columns: repeat(2, 1fr); gap: .6rem; margin-top: 1.4rem; }
+  @media (max-width: 30rem) { .choices { grid-template-columns: 1fr; } }
+  button.choice {
+    background: transparent; color: var(--ink); border: 1px solid var(--line);
+    border-radius: 8px; padding: .7rem .8rem; cursor: pointer; text-align: left;
+    font: inherit; transition: border-color .12s, background .12s;
+  }
+  button.choice:hover:not(:disabled) { border-color: var(--accent); }
+  button.choice:disabled { cursor: default; opacity: .55; }
+  button.choice.is-right { border-color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); opacity: 1; }
+  button.choice.is-wrong { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, transparent); opacity: 1; }
+  .choice .ja { font-size: 1.05rem; margin-right: .4rem; }
+  .choice .en { color: var(--dim); font-size: .8rem; }
+  .choice .hint { display: block; color: var(--dim); font-size: .72rem; margin-top: .15rem; }
+  .verdict { margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+  .verdict h2 { font-size: .95rem; margin: 0 0 .7rem; }
+  .contours { display: flex; flex-wrap: wrap; gap: 1rem; }
+  .contour { border: 1px solid var(--line); border-radius: 8px; padding: .6rem .8rem; }
+  .contour .cap { font-size: .78rem; color: var(--dim); margin-bottom: .2rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+  th, td { padding: .35rem .5rem; text-align: right; border-bottom: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--dim); font-weight: 500; }
+  .row-actions { margin-top: 1.2rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+  .row-actions button {
+    font: inherit; background: var(--accent); color: var(--bg); border: 0;
+    border-radius: 7px; padding: .5rem 1rem; cursor: pointer;
+  }
+  .row-actions button.ghost { background: transparent; color: var(--dim); border: 1px solid var(--line); }
+  .notice { margin-top: 1.5rem; font-size: .8rem; color: var(--dim);
+            border-left: 2px solid var(--line); padding-left: .8rem; }
+  .notice strong { color: var(--ink); font-weight: 600; }
+  kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px;
+        padding: 0 .3rem; font-size: .75rem; font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>pitch-pair</h1>
+    <span class="sub" id="progress">loading</span>
+  </header>
+  <div class="bar"><i id="barfill" style="width:0%"></i></div>
+  <div class="panel" id="stage">loading the deck…</div>
+  <p class="notice" id="audio-notice">
+    <strong>There is no audio here, on purpose.</strong>
+    Synthesised speech did not reproduce Japanese pitch accent reliably enough to drill
+    against. On a measured probe it rendered 飴 (heiban) with a falling contour, which is
+    the accent of 雨. Shipping that would teach the wrong pitch. This is a visual pattern
+    drill until a source of verified recordings is available. See the README for the
+    measurements.
+  </p>
+</main>
+<script type="module" src="./src/app.js"></script>
+</body>
+</html>
