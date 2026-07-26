@@ -1,0 +1,4423 @@
+{
+ "generatedBy": "py-fsrs 6.3.1, enable_fuzzing=False, default parameters",
+ "epochIso": "2026-01-01T00:00:00+00:00",
+ "parameters": [
+  0.212,
+  1.2931,
+  2.3065,
+  8.2956,
+  6.4133,
+  0.8334,
+  3.0194,
+  0.001,
+  1.8722,
+  0.1666,
+  0.796,
+  1.4835,
+  0.0614,
+  0.2629,
+  1.6483,
+  0.6014,
+  1.8729,
+  0.5425,
+  0.0912,
+  0.0658,
+  0.1542
+ ],
+ "sequences": [
+  {
+   "ratings": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    1,
+    5
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 3,
+     "atDay": 1,
+     "stability": 7.319186097840142,
+     "difficulty": 2.1043313908464483,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 5,
+     "stability": 23.205358071858555,
+     "difficulty": 2.0974554287524403,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2419200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.24668918777567272,
+     "difficulty": 6.402115069296838,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.2842063592758949,
+     "difficulty": 6.3909413235243795,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 86400000
+    },
+    {
+     "rating": 4,
+     "atDay": 2,
+     "stability": 5.0573801323614545,
+     "difficulty": 5.170190465277389,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 604800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    3,
+    20
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 34.614276209412175,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 3283200000
+    },
+    {
+     "rating": 4,
+     "atDay": 20,
+     "stability": 146.54726750458053,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 14428800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.7765494494075704,
+     "difficulty": 6.7404595108297,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 1,
+     "stability": 2.108717559614482,
+     "difficulty": 7.821393497998797,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 86730000
+    },
+    {
+     "rating": 2,
+     "atDay": 2,
+     "stability": 3.1865263733438116,
+     "difficulty": 8.538967850205447,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 173130000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    1,
+    3,
+    3,
+    1
+   ],
+   "offsets": [
+    0,
+    1,
+    1,
+    4,
+    30
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 1,
+     "stability": 0.5712991793450282,
+     "difficulty": 7.394502741279718,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 86460000
+    },
+    {
+     "rating": 3,
+     "atDay": 1,
+     "stability": 0.6228007531723337,
+     "difficulty": 7.382336607835277,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 87000000
+    },
+    {
+     "rating": 3,
+     "atDay": 4,
+     "stability": 3.8966814585535863,
+     "difficulty": 7.37018264052428,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 30,
+     "stability": 1.057494264943889,
+     "difficulty": 9.120825285995213,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 2592600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    0
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.08335671711031604,
+     "difficulty": 8.806304468856837,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.03485140985964798,
+     "difficulty": 9.592868765339693,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    4,
+    1,
+    2,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    7,
+    7,
+    9
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 3.946054067969477,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 1,
+     "atDay": 7,
+     "stability": 0.9823839839211294,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605400000
+    },
+    {
+     "rating": 2,
+     "atDay": 7,
+     "stability": 0.6007192692149372,
+     "difficulty": 8.011605503110008,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605700000
+    },
+    {
+     "rating": 3,
+     "atDay": 9,
+     "stability": 2.798236563754124,
+     "difficulty": 7.998822266903736,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1036800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    3,
+    4,
+    1
+   ],
+   "offsets": [
+    0,
+    2,
+    40,
+    100
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 2,
+     "stability": 6.574701842817031,
+     "difficulty": 5.102286904192293,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 173400000
+    },
+    {
+     "rating": 4,
+     "atDay": 40,
+     "stability": 83.7678383410067,
+     "difficulty": 3.4509277903004603,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 10713600000
+    },
+    {
+     "rating": 1,
+     "atDay": 100,
+     "stability": 3.464509936581173,
+     "difficulty": 7.832592867659625,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 8640600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.08335671711031604,
+     "difficulty": 8.806304468856837,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.05565252016340673,
+     "difficulty": 9.592868765339693,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.08335671711031604,
+     "difficulty": 8.806304468856837,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 0.5191152954151349,
+     "difficulty": 9.192797649512254,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259530000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.08335671711031604,
+     "difficulty": 8.806304468856837,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 0.8079303424924559,
+     "difficulty": 8.792726533684817,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.08335671711031604,
+     "difficulty": 8.806304468856837,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 1.4404106600885258,
+     "difficulty": 8.39265541785738,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    2,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.14339874769184835,
+     "difficulty": 7.604209769076838,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.08742371666529179,
+     "difficulty": 9.197748411765964,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.14339874769184835,
+     "difficulty": 7.604209769076838,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 1.0644068116222865,
+     "difficulty": 8.39479117018528,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259530000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    2,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.14339874769184835,
+     "difficulty": 7.604209769076838,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 1.6748388273899495,
+     "difficulty": 7.5918339286046,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    2,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.14339874769184835,
+     "difficulty": 7.604209769076838,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 3.0116328729584216,
+     "difficulty": 6.788876687023917,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    3,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.24668918777567272,
+     "difficulty": 6.402115069296838,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.13520919467965714,
+     "difficulty": 8.802628058192235,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    3,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.24668918777567272,
+     "difficulty": 6.402115069296838,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 1.9062252133082107,
+     "difficulty": 7.596784690858309,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.24668918777567272,
+     "difficulty": 6.402115069296838,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 3.0061438361503616,
+     "difficulty": 6.3909413235243795,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 0.24668918777567272,
+     "difficulty": 6.402115069296838,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 5.414871798716628,
+     "difficulty": 5.18509795619045,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    4,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 0.42437996387663374,
+     "difficulty": 5.200020369516838,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 86400000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.20502975655080452,
+     "difficulty": 8.40750770461851,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    4,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 0.42437996387663374,
+     "difficulty": 5.200020369516838,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 86400000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 3.1231679181773626,
+     "difficulty": 6.798778211531335,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    4,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 0.42437996387663374,
+     "difficulty": 5.200020369516838,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 86400000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 4.911889033216056,
+     "difficulty": 5.190048718444159,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    1,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.212,
+     "difficulty": 6.4133,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 0.42437996387663374,
+     "difficulty": 5.200020369516838,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 86400000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 8.829035699842438,
+     "difficulty": 3.5813192253569843,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1036800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.4514029154253082,
+     "difficulty": 8.378632117467106,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.20813292114439869,
+     "difficulty": 9.452295771609876,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.4514029154253082,
+     "difficulty": 8.378632117467106,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 1.7040163098345285,
+     "difficulty": 8.908888813128176,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259530000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.4514029154253082,
+     "difficulty": 8.378632117467106,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 2.5342319716428343,
+     "difficulty": 8.365481854646477,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.4514029154253082,
+     "difficulty": 8.378632117467106,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 4.3523334548151125,
+     "difficulty": 7.822074896164778,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 604800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    2,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.7765494494075704,
+     "difficulty": 6.7404595108297,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.306484019483534,
+     "difficulty": 8.913839575381886,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.7765494494075704,
+     "difficulty": 6.7404595108297,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 3.2889481213739056,
+     "difficulty": 7.821393497998797,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259530000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    2,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.7765494494075704,
+     "difficulty": 6.7404595108297,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 4.954132874692465,
+     "difficulty": 6.728947420615708,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    2,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 0.7765494494075704,
+     "difficulty": 6.7404595108297,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 8.600745446623648,
+     "difficulty": 5.636501343232619,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1036800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    3,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 1.3358997622047517,
+     "difficulty": 5.102286904192293,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.4396788013829369,
+     "difficulty": 8.375383379153895,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    3,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 1.3358997622047517,
+     "difficulty": 5.102286904192293,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 5.436868031435469,
+     "difficulty": 6.733898182869418,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 1.3358997622047517,
+     "difficulty": 5.102286904192293,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 8.15493579351622,
+     "difficulty": 5.0924129865849395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 950400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 1.3358997622047517,
+     "difficulty": 5.102286904192293,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 14.107272345248,
+     "difficulty": 3.4509277903004603,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1468800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    4,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 2.2981513617969918,
+     "difficulty": 3.4641142975548855,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.6166612361123728,
+     "difficulty": 7.836927182925906,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    4,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 2.2981513617969918,
+     "difficulty": 3.4641142975548855,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 8.173076910868668,
+     "difficulty": 5.646402867740037,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 950400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    4,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 2.2981513617969918,
+     "difficulty": 3.4641142975548855,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 12.066900196302605,
+     "difficulty": 3.455878552554169,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1296000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    2,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.2931,
+     "difficulty": 5.112170705601056,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 330000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 2.2981513617969918,
+     "difficulty": 3.4641142975548855,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 20.594041053942554,
+     "difficulty": 1.2653542373683004,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2073600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.7750839828558984,
+     "difficulty": 7.394502741279718,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.30436558249860357,
+     "difficulty": 9.128819137736839,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.7750839828558984,
+     "difficulty": 7.394502741279718,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 2.900313087799433,
+     "difficulty": 8.25557787278606,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259530000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.7750839828558984,
+     "difficulty": 7.394502741279718,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 4.308886950836501,
+     "difficulty": 7.382336607835277,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 0.7750839828558984,
+     "difficulty": 7.394502741279718,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 60000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 7.393543561586771,
+     "difficulty": 6.5090953428844935,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 864000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    2,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.3333787168039835,
+     "difficulty": 4.752858488532557,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.44109288733987967,
+     "difficulty": 8.260528635039767,
+     "state": 1,
+     "step": 0,
+     "dueMsFromEpoch": 259260000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.3333787168039835,
+     "difficulty": 4.752858488532557,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 5.675205120573567,
+     "difficulty": 6.501931317190316,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    2,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.3333787168039835,
+     "difficulty": 4.752858488532557,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 8.552910482300463,
+     "difficulty": 4.743333999340863,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1036800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    2,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 1.3333787168039835,
+     "difficulty": 4.752858488532557,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 14.854839760402342,
+     "difficulty": 2.984736681491411,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1555200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.6369781117173378,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 9.240245156383255,
+     "difficulty": 4.748284761594571,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1036800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 13.835840133660218,
+     "difficulty": 2.1043313908464483,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1468800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 23.899801136332222,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2332800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    4,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 3.946054067969477,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.8875188557676472,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    4,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 3.946054067969477,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 12.257556598317821,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1296000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    4,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 3.946054067969477,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 17.76631101899765,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1814400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 3.946054067969477,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 29.830013311550143,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2851200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 2.5625081682260777,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.6268869215650077,
+     "difficulty": 9.008020057195637,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 2.5625081682260777,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 5.712354353279399,
+     "difficulty": 8.011605503110008,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 260100000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 2.5625081682260777,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 7.800030923552516,
+     "difficulty": 7.0151909490243805,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 950400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 0,
+     "stability": 2.5625081682260777,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 12.371864536676963,
+     "difficulty": 6.018776394938751,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1296000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    2,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 4.40828855804682,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.862120425449452,
+     "difficulty": 8.016556265363716,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 4.40828855804682,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 10.26036135411309,
+     "difficulty": 6.00919149749405,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    2,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 4.40828855804682,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 14.139038135809159,
+     "difficulty": 4.00182672962438,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1468800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    2,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 2,
+     "atDay": 0,
+     "stability": 4.40828855804682,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 22.633009442237906,
+     "difficulty": 1.994461961754711,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2246400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    3,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    3,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 16.746692889284255,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1728000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 22.347965961563446,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2160000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 34.614276209412175,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 3283200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    4,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 13.046064691177454,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.5656809079268932,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    4,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 13.046064691177454,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 21.31733454473409,
+     "difficulty": 4.010608969296839,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2073600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    4,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 13.046064691177454,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 26.79942327707143,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2592000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    3
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 13.046064691177454,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 38.80472998669829,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 3628800000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    5
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.24856267015868513,
+     "difficulty": 9.128074776178583,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    3,
+    3,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 0.4454856976012437,
+     "difficulty": 9.008020057195637,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 1,
+     "atDay": 7,
+     "stability": 0.21499980768096943,
+     "difficulty": 9.659171307560655,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 1,
+     "atDay": 7,
+     "stability": 0.26242294386740694,
+     "difficulty": 9.128074776178583,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    1,
+    1
+   ],
+   "offsets": [
+    0,
+    3,
+    5,
+    9
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.39579442329498754,
+     "difficulty": 9.008020057195637,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 1,
+     "atDay": 9,
+     "stability": 0.1973835642420544,
+     "difficulty": 9.659171307560655,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 778200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    5
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 2,
+     "atDay": 5,
+     "stability": 0.4276029198285958,
+     "difficulty": 8.254074519842886,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432900000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    3,
+    3,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 2,
+     "atDay": 3,
+     "stability": 0.7663700462927885,
+     "difficulty": 8.011605503110008,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 260100000
+    },
+    {
+     "rating": 2,
+     "atDay": 7,
+     "stability": 2.770246418107005,
+     "difficulty": 8.665239443077706,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605700000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 2,
+     "atDay": 7,
+     "stability": 2.3435151719955125,
+     "difficulty": 8.254074519842886,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 605700000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    2,
+    2
+   ],
+   "offsets": [
+    0,
+    3,
+    5,
+    9
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 2,
+     "atDay": 5,
+     "stability": 3.4124411338201845,
+     "difficulty": 8.011605503110008,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432900000
+    },
+    {
+     "rating": 2,
+     "atDay": 9,
+     "stability": 6.423042541712135,
+     "difficulty": 8.665239443077706,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 778500000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    5
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 3,
+     "atDay": 5,
+     "stability": 0.7356062635198228,
+     "difficulty": 7.38007426350719,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    3,
+    3,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 3,
+     "atDay": 3,
+     "stability": 1.31838811216006,
+     "difficulty": 7.0151909490243805,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 345600000
+    },
+    {
+     "rating": 3,
+     "atDay": 7,
+     "stability": 6.69536256490764,
+     "difficulty": 7.003404127372194,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1209600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 3,
+     "atDay": 7,
+     "stability": 3.444258521357023,
+     "difficulty": 7.38007426350719,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 864000000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    3,
+    3
+   ],
+   "offsets": [
+    0,
+    3,
+    5,
+    9
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 3,
+     "atDay": 5,
+     "stability": 4.8291329005675845,
+     "difficulty": 7.0151909490243805,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 864000000
+    },
+    {
+     "rating": 3,
+     "atDay": 9,
+     "stability": 11.77961782130604,
+     "difficulty": 7.003404127372194,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1814400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    5
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 4,
+     "atDay": 5,
+     "stability": 1.2654651075500167,
+     "difficulty": 6.5060740071714935,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    3,
+    3,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 4,
+     "atDay": 3,
+     "stability": 2.2680260308881057,
+     "difficulty": 6.018776394938751,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 432000000
+    },
+    {
+     "rating": 4,
+     "atDay": 7,
+     "stability": 16.785073181909215,
+     "difficulty": 4.673665360444115,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2073600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    4
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    7
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 4,
+     "atDay": 7,
+     "stability": 5.854792564652716,
+     "difficulty": 6.5060740071714935,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    4,
+    4
+   ],
+   "offsets": [
+    0,
+    3,
+    5,
+    9
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 3,
+     "stability": 1.2749638921696915,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 259800000
+    },
+    {
+     "rating": 4,
+     "atDay": 5,
+     "stability": 7.931567027998105,
+     "difficulty": 6.018776394938751,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1123200000
+    },
+    {
+     "rating": 4,
+     "atDay": 9,
+     "stability": 24.620638865127155,
+     "difficulty": 4.673665360444115,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 2937600000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    3,
+    3,
+    1,
+    2
+   ],
+   "offsets": [
+    0,
+    0,
+    5,
+    5,
+    9,
+    20,
+    21
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 5,
+     "stability": 0.6827348149809292,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 432600000
+    },
+    {
+     "rating": 3,
+     "atDay": 5,
+     "stability": 0.7356062635198228,
+     "difficulty": 7.38007426350719,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 518400000
+    },
+    {
+     "rating": 3,
+     "atDay": 9,
+     "stability": 4.706840754668597,
+     "difficulty": 7.3679225585405215,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1209600000
+    },
+    {
+     "rating": 1,
+     "atDay": 20,
+     "stability": 1.0049045173038191,
+     "difficulty": 9.120082412415709,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 1728600000
+    },
+    {
+     "rating": 2,
+     "atDay": 21,
+     "stability": 1.6143744923865215,
+     "difficulty": 9.401098070498804,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 1815300000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    4,
+    1,
+    2,
+    2,
+    3,
+    4
+   ],
+   "offsets": [
+    0,
+    1,
+    1,
+    2,
+    8,
+    40
+   ],
+   "steps": [
+    {
+     "rating": 4,
+     "atDay": 0,
+     "stability": 8.2956,
+     "difficulty": 1.0,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 691200000
+    },
+    {
+     "rating": 1,
+     "atDay": 1,
+     "stability": 1.2161783702767177,
+     "difficulty": 7.0269895692968385,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 87000000
+    },
+    {
+     "rating": 2,
+     "atDay": 1,
+     "stability": 0.7333087242380224,
+     "difficulty": 8.011605503110008,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 87300000
+    },
+    {
+     "rating": 2,
+     "atDay": 2,
+     "stability": 1.6590625726553603,
+     "difficulty": 8.665239443077706,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 173700000
+    },
+    {
+     "rating": 3,
+     "atDay": 8,
+     "stability": 5.832515625589354,
+     "difficulty": 8.651802572931466,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 1209600000
+    },
+    {
+     "rating": 4,
+     "atDay": 40,
+     "stability": 33.03199719434434,
+     "difficulty": 8.1865261881021,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 6307200000
+    }
+   ]
+  },
+  {
+   "ratings": [
+    3,
+    3,
+    1,
+    1,
+    1,
+    3
+   ],
+   "offsets": [
+    0,
+    0,
+    4,
+    4,
+    4,
+    6
+   ],
+   "steps": [
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.118103970459016,
+     "state": 1,
+     "step": 1,
+     "dueMsFromEpoch": 600000
+    },
+    {
+     "rating": 3,
+     "atDay": 0,
+     "stability": 2.3065,
+     "difficulty": 2.111214235785395,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 172800000
+    },
+    {
+     "rating": 1,
+     "atDay": 4,
+     "stability": 0.661548852925064,
+     "difficulty": 7.392238132342694,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 346200000
+    },
+    {
+     "rating": 1,
+     "atDay": 4,
+     "stability": 0.24134960216726875,
+     "difficulty": 9.128074776178583,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 346200000
+    },
+    {
+     "rating": 1,
+     "atDay": 4,
+     "stability": 0.09409056637410905,
+     "difficulty": 9.69863247731826,
+     "state": 3,
+     "step": 0,
+     "dueMsFromEpoch": 346200000
+    },
+    {
+     "rating": 3,
+     "atDay": 6,
+     "stability": 0.5090310927016929,
+     "difficulty": 9.684162214137778,
+     "state": 2,
+     "step": null,
+     "dueMsFromEpoch": 604800000
+    }
+   ]
+  }
+ ],
+ "intervals": [
+  {
+   "desiredRetention": 0.7,
+   "stability": 0.1,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 0.5,
+   "days": 5
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 1.0,
+   "days": 9
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 2.0,
+   "days": 19
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 3.5,
+   "days": 33
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 10.0,
+   "days": 93
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 47.3,
+   "days": 439
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 365.0,
+   "days": 3390
+  },
+  {
+   "desiredRetention": 0.7,
+   "stability": 5000.0,
+   "days": 36500
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 0.1,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 0.5,
+   "days": 2
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 1.0,
+   "days": 3
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 2.0,
+   "days": 7
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 3.5,
+   "days": 12
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 10.0,
+   "days": 33
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 47.3,
+   "days": 157
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 365.0,
+   "days": 1210
+  },
+  {
+   "desiredRetention": 0.8,
+   "stability": 5000.0,
+   "days": 16580
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 0.1,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 0.5,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 1.0,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 2.0,
+   "days": 2
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 3.5,
+   "days": 4
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 10.0,
+   "days": 10
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 47.3,
+   "days": 47
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 365.0,
+   "days": 365
+  },
+  {
+   "desiredRetention": 0.9,
+   "stability": 5000.0,
+   "days": 5000
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 0.1,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 0.5,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 1.0,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 2.0,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 3.5,
+   "days": 1
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 10.0,
+   "days": 4
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 47.3,
+   "days": 19
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 365.0,
+   "days": 147
+  },
+  {
+   "desiredRetention": 0.95,
+   "stability": 5000.0,
+   "days": 2013
+  }
+ ],
+ "retrievability": [
+  {
+   "stability": 1.0,
+   "elapsedDays": 0,
+   "r": 1.0
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 1,
+   "r": 0.9
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 2,
+   "r": 0.8458846451494336
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 5,
+   "r": 0.7605275627180896
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 10,
+   "r": 0.6928266345726217
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 50,
+   "r": 0.54701045268947
+  },
+  {
+   "stability": 1.0,
+   "elapsedDays": 200,
+   "r": 0.44276140264235564
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 0,
+   "r": 1.0
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 1,
+   "r": 0.9727695594804078
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 2,
+   "r": 0.9502637499730153
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 5,
+   "r": 0.9
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 10,
+   "r": 0.8458846451494336
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 50,
+   "r": 0.6928266345726217
+  },
+  {
+   "stability": 5.0,
+   "elapsedDays": 200,
+   "r": 0.5657248525670068
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 0,
+   "r": 1.0
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 1,
+   "r": 0.9970103472148596
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 2,
+   "r": 0.9940863255312746
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 5,
+   "r": 0.9856824087775146
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 10,
+   "r": 0.9727695594804078
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 50,
+   "r": 0.9
+  },
+  {
+   "stability": 50.0,
+   "elapsedDays": 200,
+   "r": 0.782132114874225
+  }
+ ]
+}
