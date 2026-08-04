@@ -7,7 +7,7 @@ A session is 50 items and ends with an accuracy figure for each of the four patt
 separately, because the thing worth measuring is whether you have learned the patterns
 rather than whether you have memorised some words.
 
-Catalog task: `EDU-013`. Part of [thousand](https://github.com/JesseRWeigel/722-things-to-build).
+Catalog task: `EDU-013`. Part of [722 things to build](https://github.com/JesseRWeigel/722-things-to-build).
 
 **[Try the drill](https://jesserweigel.github.io/pitch-pair/)**
 
